@@ -40,29 +40,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="440dp"
-        android:layout_height="299dp"
         app:srcCompat="@drawable/vancouver"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        style="@style/Image"/>
 
     <TextView
         android:id="@+id/loc"
+        style="@style/Text"
         android:layout_width="266dp"
         android:layout_height="29dp"
         android:layout_marginBottom="40dp"
         android:layout_marginEnd="324dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="31dp"
         android:layout_marginRight="324dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="31dp"
         android:text="Location: Vancouver"
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
         app:layout_constraintBottom_toTopOf="@+id/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.004"
-        app:layout_constraintStart_toStartOf="parent"
-        style="@style/Text" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/distanc"
